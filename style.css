@@ -1,6 +1,75 @@
+body{
+    margin: 0px;
+    color: white;
+    font-family: 'Croissant One', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+
 #main-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: orange;
+    background: rgb(15, 27, 83);
+    height: 100vh;
+    flex-direction: column ;
+
+}
+#main-title{
+    font-size: 100px;
+    margin: 0;
+}
+#main-containt{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(136, 130, 130);
+    height: 200px;
+    width: 700px;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 10px ;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3) ;
+
+}
+#word-input{
+    width: 500px;
+    height: 50px;
+    border: none;
+    border-radius: 100px;
+    padding: 0px 20px;
+
+}
+#submit-btn{
+    height: 50px;
+    width: 160px;
+    border: none;
+    border-radius: 100px;
+    margin: 0px 10px;
+    background-color: rgb(35, 104, 252);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.5s ;
+
+
+}
+#submit-btn:hover{
+    background-color: rgb(15, 61, 161);
+}
+
+#reply-content{
+    color:black;
+    font-size: 25px ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(136, 130, 130);
+    height: 400px;
+    width: 700px;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 10px ;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3) ;
+
 }
